@@ -1,5 +1,28 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Widgets {
+  margin: 10px;
+}
+
+.Widget {
+  border-style: groove;
+  margin: 10px;
+  background-color: blue;
+}
+
+.DropArea {
+  border-style: dotted;
+  width: 400px;
+  height: 300px;
+}
+
+.App {
+  text-align: center;
 }
 
 .App-logo {
